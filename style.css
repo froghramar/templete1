@@ -1,0 +1,93 @@
+﻿.center-layout{
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.align-text-center{
+    text-align: center;
+}
+
+header{
+    position: relative;
+    height: 50px;
+}
+
+img {
+    height: 100%;
+}
+
+.inline-item-list > ul > li > img {
+    float: left;
+}
+
+header > input{
+    position: absolute;
+    height: 60%;
+    width: calc(100% - 70px);
+    top : 20%;
+    bottom: 20%;
+    left: 60px;
+    right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+details > summary {
+    margin-bottom: 5px;
+    background: #cccccc;
+}
+
+ul.border-rapped > li {
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.inline-item-list > ul > li {
+    position: relative;
+    height: 100px;
+}
+
+.inline-item-list > ul > li > h1, .inline-item-list > ul > li > p{
+    margin-left: 110px;
+}
+
+.box-item-list > ul {
+    display: flex;
+}
+
+.box-item-list > ul > li {
+    width: 30%;
+}
+
+.box-item-list > ul > li {
+    position: relative;
+    height: 100px;
+}
+
+.box-item-list > ul > li > h3, .box-item-list > ul > li > p{
+    position: absolute;
+    display: inline;
+    margin-left: 10px;
+}
+
+.box-item-list > ul > li > p {
+    margin-top: 45px;
+}
+
+.box-item-list > ul > li > span {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #cccccc;
+    font-weight: bold;
+}
+
+footer > p > a {
+    float: right;
+    margin-right: 10px;
+    color: black;
+}
